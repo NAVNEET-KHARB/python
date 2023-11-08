@@ -1,0 +1,16 @@
+# countries = ("Spain", "Italy", "India", "England", "Germany")
+# tem = list(countries)
+# tem.append("Russia")
+# tem.pop(3)
+# tem[2] = "Finland"
+# countries = tuple(tem)
+# print(countries)
+num1 = (0, 1)
+num2 = (6, 8)
+num = num1+num2
+print(num)
+no = (0, 1, 2, 3, 2, 1, 7, 4, 3, 1, 2, 4, 5, 3)
+print(no.count(3))
+print(no.index(3))
+print(no.index(3, 4, 9))
+print(len(no))
